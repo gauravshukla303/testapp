@@ -19,6 +19,8 @@
     "supertest": "^1.0.0"
   },
   "scripts": {
+    "prestart": "npm install",
+    "pretest": "swagger project test",
     "start": "node app.js",
     "test": "swagger project test"
   }
